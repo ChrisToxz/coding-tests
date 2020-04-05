@@ -5,7 +5,7 @@ padding:0;
 }
 
 html, body {
-height 100%;
+height: 100%;
 /*background-color: #eaddcc;*/
 }
 
@@ -41,14 +41,15 @@ background-color: yellow;
 }
 
 
+/* ***Disabled - Wasn't working
 table#striped tr:nth-child(odd){ 
-/* background-color: #b5bda4; */ 
+background-color: #b5bda4; 
 }
-
 
 table#striped tr:nth-child(even){
-/* background-color: #b6c2da;*/
+background-color: #b6c2da;
 }
+*/
 
 table#striped th {
 font-family: 'Roboto', Arial, sans-serif;
