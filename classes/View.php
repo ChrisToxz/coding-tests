@@ -1,5 +1,7 @@
 <?php 
 
+// Handles all output to HTML
+
 // I had some issues with my existing CSS, to integrate
 // striped rows using :nth-child(odd) and :nth-child(even).
 // To prevent any more holdups, I resorted to doing it 
@@ -23,7 +25,6 @@ class View {
 		for($count = 0; $count< count($data);$count++){
 
 			($colour == $rowColourA)?$colour=$rowColourB : $colour=$rowColourA;
-
 ?>
 			<tr style="background-color: <?= $colour ?>;">
 			<td><?= $data[$count]['name'] ?></td>

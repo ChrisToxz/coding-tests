@@ -1,6 +1,20 @@
 <?php
 
 
+// Stores all names and special powers for the specific Baddie type
+
+// Stores strength and health boundaries.
+
+// Randomises all names and ensures that only unique 
+// character names are issued. 
+
+// Holds location of image
+
+// Note that all methods are inherited from the BaddieType parent class
+// As these are not unique to the character.
+// This makes it easier to add new baddie types.
+
+
 class Snake extends BaddieType{
 
 	
